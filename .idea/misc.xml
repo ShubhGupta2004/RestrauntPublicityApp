@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/shubh/AndroidStudioProjects/RestrauntPublicityApp/app/src/main/res/drawable/backg.xml" value="0.1984375" />
-        <entry key="..\:/Users/shubh/AndroidStudioProjects/RestrauntPublicityApp/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/shubh/AndroidStudioProjects/RestrauntPublicityApp/app/src/main/res/drawable/imi.xml" value="0.1984375" />
+        <entry key="..\:/Users/shubh/AndroidStudioProjects/RestrauntPublicityApp/app/src/main/res/font/font.xml" value="0.115625" />
+        <entry key="..\:/Users/shubh/AndroidStudioProjects/RestrauntPublicityApp/app/src/main/res/font/lib.xml" value="0.115625" />
+        <entry key="..\:/Users/shubh/AndroidStudioProjects/RestrauntPublicityApp/app/src/main/res/layout/activity_main.xml" value="0.25625" />
       </map>
     </option>
   </component>
@@ -13,5 +16,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16666666666666666" />
+      </ProjectState>
+    </option>
   </component>
 </project>
