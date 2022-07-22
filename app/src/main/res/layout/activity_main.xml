@@ -28,6 +28,7 @@
         android:textColor="@color/teal_700"
         android:textSize="50sp"
         android:textStyle="italic"
+        style="@style/TextAppearance.Material3.BodyMedium"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.173"
@@ -163,15 +164,19 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:onClick="loc">
 
             <ImageView
+                android:id="@+id/location"
                 android:layout_width="42dp"
+
                 android:layout_height="19dp"
                 android:layout_weight="1"
                 android:src="@drawable/img" />
 
             <TextView
+                android:id="@+id/address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
@@ -182,6 +187,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="42dp"
@@ -189,6 +195,7 @@
             android:text="@string/email" />
 
         <TextView
+            android:id="@+id/phoneNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="42dp"
@@ -197,9 +204,11 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:onClick="site">
 
             <ImageView
+                android:id="@+id/webImg"
                 android:layout_width="42dp"
                 android:layout_height="19dp"
                 android:scaleType="fitCenter"
@@ -207,10 +216,11 @@
 
 
             <TextView
+                android:id="@+id/web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/webs"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/purple_700"
                 android:textStyle="italic"/>
 
         </LinearLayout>
