@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RestrauntPublicityApp</string>
+    <string name="todo">TODO</string>
+    <string name="pr_caterents">PR Caterents</string>
+    <string name="phone_no">Phone No : +91 1234567889</string>
+    <string name="address">Address: 23, katpadi road, shihole , vellore</string>
+    <string name="email">Email : shhuwpj123@gmail.com</string>
+    <string name="webs">Website: www.zomato.com/pr_cateres</string>
 </resources>
